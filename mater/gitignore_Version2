@@ -1,0 +1,151 @@
+# .gitignore - Java + VS Code (Microsoft Code) tailored for MS_CODE_JAVA_SDKSample
+# Place at repository root.
+
+#################################
+# Build output
+#################################
+/target/
+/build/
+/out/
+/bin/
+/dist/
+
+#################################
+# Java
+#################################
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+.relocate/
+dependency-reduced-pom.xml
+release.properties
+*.log
+
+#################################
+# Maven
+#################################
+# local maven repository (uncomment if you commit local repo)
+# /.m2/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+.mvn/timing.properties
+
+#################################
+# Gradle
+#################################
+/.gradle/
+/build/
+/gradle-app.setting
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+#################################
+# Eclipse
+#################################
+.project
+.classpath
+.settings/
+*.launch
+
+#################################
+# IntelliJ / JetBrains
+#################################
+/.idea/
+*.iml
+*.iws
+.idea_modules/
+out/
+
+#################################
+# NetBeans
+#################################
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+#################################
+# Visual Studio Code (Microsoft Code)
+#################################
+.vscode/
+.history/
+!.vscode/extensions.json    # optional: keep extension recommendations if you want
+!.vscode/tasks.json         # optional: keep if you intentionally share tasks
+
+#################################
+# Azure / Functions / Local settings
+#################################
+local.settings.json
+.azure/
+.azurefunctions/
+secrets.json
+# Azure credentials (VS Code) and CLI tokens
+.vscode/azure*
+azureCredentials.json
+
+#################################
+# OS files
+#################################
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+#################################
+# IDE / Tooling / Misc
+#################################
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.log
+*.cache
+*.tmp
+*.swp
+
+#################################
+# Test / Coverage / Reports
+#################################
+/target/surefire-reports/
+/target/failsafe-reports/
+test-output/
+coverage/
+jacoco.exec
+*.lcov
+
+#################################
+# Secrets / Local config
+#################################
+# local.properties often contains SDK paths (Android / local)
+local.properties
+env.properties
+*.env
+*.secret
+secrets.properties
+credentials.properties
+*.keystore
+*.jks
+
+#################################
+# Containers / CI / Packages
+#################################
+# Docker
+docker-compose.override.yml
+.docker/
+# Node deps if present in sample projects
+node_modules/
+
+#################################
+# Misc
+#################################
+# Generated documentation
+/site/
+doc/
+buildDocs/
+
+# End of .gitignore
