@@ -19,6 +19,8 @@ This sample application demonstrates how to integrate and use the Zebra RFID API
 - `MainUIHandler.java`: Helper for UI-related updates.
 
 ## Getting Started
+<img width="386" height="867" alt="TC22R_RFID_DW" src="https://github.com/user-attachments/assets/3834c9ce-3c87-4c56-8b8e-99b2017567bc" />
+
 
 ### Prerequisites
 
